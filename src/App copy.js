@@ -7,7 +7,7 @@ function App() {
   // seState를 사용하여 toDos라는 상태 변수를 생성하고, 이를 변경하기 위한 setTodos 함수를 생성
   // toDos 상태 변수는 현재 할 일 목록 정보를 배열 형태로 담게 됩니다. 
   // setTodos 함수를 사용하여 이 값을 변경할 수 있습니다. 초기 값으로는 빈 배열이 지정
-  const [toDos, setTodos] = useState(["13",""]);
+  const [toDos, setTodos] = useState([]);
 
   // onChange 함수를 생성하여, 이 함수가 호출될 때 인자로 전달된 이벤트 객체의 target.value를 이용하여 setTodo 함수를 호출하는 구문
   const onChange = (e) => setTodo(e.target.value);
